@@ -20,7 +20,7 @@ export default class Navbar extends React.Component {
 				<div className="navbar">
 					<i onClick={() => toggleMenuOverlay()} className="fa fa-bars" aria-hidden="true"></i>
 				</div>
-				<MenuOverlay visible={visible}/>
+				<MenuOverlay visible={visible} toggleMenu={toggleMenuOverlay}/>
 			</div>
 		)
 	}

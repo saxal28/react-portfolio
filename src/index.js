@@ -4,10 +4,8 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-import { Router } from 'react-router';
-import createBrowserHistory from 'history/createBrowserHistory'
-const history = createBrowserHistory()
+import { HashRouter } from "react-router-dom";
 
-ReactDOM.render(<Router history={history}><App/></Router>,
+ReactDOM.render(<HashRouter><App/></HashRouter>,
 	document.getElementById('root'));
 registerServiceWorker();
