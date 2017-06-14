@@ -3,7 +3,9 @@ import React from "react";
 export default class BioSection extends React.Component {
 	render() {
 		return (
-			<div>Bio Section</div>
+			<div className="main-section">
+				<h1>Bio</h1>
+			</div>
 		)
 	}
 }

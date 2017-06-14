@@ -5,14 +5,8 @@ export default class MainSection extends React.Component {
 		return (
 			<div className="main-section">
 				<div className="logo-container">
-					<img src="http://i.imgur.com/eDkNZeL.png" alt=""/>
+					<img src="http://i.imgur.com/pZwrWnA.png" alt=""/>
 				</div>
-				{/*<div className="navigation-row">*/}
-					{/*<div className="navigation-link">A</div>*/}
-					{/*<div className="navigation-link">A</div>*/}
-					{/*<div className="navigation-link">A</div><*/}
-					{/*div className="navigation-link">A</div>*/}
-				{/*</div>*/}
 			</div>
 		)
 	}
