@@ -1,3 +1,5 @@
+@import "colors.scss";
+
 @font-face{
 	font-family: "A";
 	src: url('ABEAKRG.TTF');
@@ -23,4 +25,16 @@ h3 {
 	color: $action_green;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 30px;
+	margin: 10px 0;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+strong {
+	color: $action_green;
 }

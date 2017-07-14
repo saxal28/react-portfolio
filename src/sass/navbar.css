@@ -8,6 +8,16 @@
     justify-content: center; }
     .menu .navbar .nav-link {
       padding-bottom: 10px;
-      margin-right: 50px;
+      border-bottom: 4px solid transparent;
+      width: 100px;
+      text-align: center;
       font-weight: bold;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #ddd;
+      transition: all 400ms;
+      text-decoration: none; }
+      .menu .navbar .nav-link.active {
+        color: #00FF9C;
+        border-bottom: 4px solid #00FF9C; }
+      .menu .navbar .nav-link:hover {
+        border-bottom: 4px solid #00FF9C; }

@@ -1,0 +1,10 @@
+.avatar-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  align-items: center;
+  justify-content: space-around; }
+  .avatar-card .card-body {
+    max-width: 370px;
+    line-height: 70px; }

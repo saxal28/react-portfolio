@@ -1,14 +1,24 @@
 import React from 'react'
+import Section from "./Section";
+import AvatarCard from "./common/AvatarCard";
 
 export default class MainSection extends React.Component {
 	render() {
 		return (
-			<section className="main">
-				<div className="container">
-					<h1>Alan Sax</h1>
-					<h3>A Web Portfolio</h3>
-				</div>
-			</section>
+			<div>
+				<Section
+					title="Alan Sax"
+				    body="A Web Portfolio"
+				    main
+				/>
+
+				<Section>
+					<AvatarCard
+						body="Howdy! I'm Alan Sax. I design and code awesome apps."
+					/>
+				</Section>
+
+			</div>
 		)
 	}
 }

@@ -2,6 +2,7 @@ section {
   display: flex;
   justify-content: center;
   height: 100vh;
+  background: url("../assets/Background Secondary.png");
   background-size: cover !important; }
   section.main {
     background: url("../assets/Background Primary.png"); }
