@@ -3,11 +3,12 @@ import React from 'react'
 export default class MainSection extends React.Component {
 	render() {
 		return (
-			<div className="main-section">
-				<div className="logo-container">
-					<img src="http://i.imgur.com/pZwrWnA.png" alt=""/>
+			<section className="main">
+				<div className="container">
+					<h1>Alan Sax</h1>
+					<h3>A Web Portfolio</h3>
 				</div>
-			</div>
+			</section>
 		)
 	}
 }

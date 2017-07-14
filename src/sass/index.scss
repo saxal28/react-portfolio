@@ -1,0 +1,10 @@
+@import 'colors.scss';
+@import "fonts.scss";
+@import "sections.scss";
+@import "navbar.scss";
+
+body, html {
+	height: 100%;
+	width:100%;
+	margin: 0;
+}

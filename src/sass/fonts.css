@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "A";
+  src: url("ABEAKRG.TTF"); }
+
+* {
+  font-family: "A"; }
+
+h1 {
+  font-size: 85px;
+  font-family: "A";
+  margin: 20px 0; }

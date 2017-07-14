@@ -1,0 +1,13 @@
+.menu {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0; }
+  .menu .navbar {
+    display: flex;
+    justify-content: center; }
+    .menu .navbar .nav-link {
+      padding-bottom: 10px;
+      margin-right: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }

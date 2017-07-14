@@ -1,9 +1,10 @@
 import React from 'react';
 import MenuOverlay from "./MenuOverlay";
+import {NavLink} from "react-router-dom";
 
 export default class Navbar extends React.Component {
 
-	state = { visible: false }
+	state = { visible: true }
 
 	toggleMenuOverlay() {
 		this.setState({visible: !this.state.visible})
@@ -18,9 +19,13 @@ export default class Navbar extends React.Component {
 		return (
 			<div className="menu">
 				<div className="navbar">
-					<i onClick={() => toggleMenuOverlay()} className="fa fa-bars" aria-hidden="true"></i>
+					<NavLink className="nav-link" to="/" activeClassName="active">Home</NavLink>
+					<NavLink className="nav-link" to="/about">About</NavLink>
+					<NavLink className="nav-link" to="/projects">Projects</NavLink>
+					<NavLink className="nav-link" to="/contact">Contact</NavLink>
+					{/*<i onClick={() => toggleMenuOverlay()} className="fa fa-bars" aria-hidden="true"></i>*/}
 				</div>
-				<MenuOverlay visible={visible} toggleMenu={toggleMenuOverlay}/>
+				{/*<MenuOverlay visible={visible} toggleMenu={toggleMenuOverlay}/>*/}
 			</div>
 		)
 	}

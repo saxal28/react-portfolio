@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover !important; }
+  section.main {
+    background: url("../assets/Background Primary.png"); }
+  section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 100%; }

@@ -1,0 +1,36 @@
+.menu {
+	position: fixed;
+	top: 70px;
+	left: 0;
+	right: 0;
+	
+	.navbar {
+		
+		display: flex;
+		justify-content: center;
+		
+		.nav-link {
+			padding-bottom: 10px;
+			border-bottom: 4px solid transparent;
+			width: 100px;
+			text-align: center;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $white;
+			transition: all 400ms;
+			text-decoration: none;
+			
+			&.active {
+				color: $action_green;
+				border-bottom: 4px solid $action_green;
+			}
+			
+			&:hover {
+				border-bottom: 4px solid $action_green;
+			}
+			
+		}
+		
+	}
+	
+}

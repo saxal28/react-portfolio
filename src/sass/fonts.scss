@@ -1,0 +1,26 @@
+@font-face{
+	font-family: "A";
+	src: url('ABEAKRG.TTF');
+}
+
+$main-font: 'A';
+
+* {
+	font-family: $main-font;
+}
+		
+h1 {
+	font-size: 85px;
+	font-family: $main-font;
+	margin: 20px 0;
+	color: $white;
+	text-shadow: 0px 2px 2px black;
+}
+
+h3 {
+	font-size: 48px;
+	margin: 10px 0;
+	color: $action_green;
+	font-weight: bold;
+	text-transform: uppercase;
+}
