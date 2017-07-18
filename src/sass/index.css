@@ -11,6 +11,9 @@ h1 {
   margin: 20px 0;
   color: #ddd;
   text-shadow: 0px 2px 2px black; }
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 50px; } }
 
 h3 {
   font-size: 48px;
@@ -18,9 +21,12 @@ h3 {
   color: #00FF9C;
   font-weight: bold;
   text-transform: uppercase; }
+  @media only screen and (max-width: 480px) {
+    h3 {
+      font-size: 28px; } }
 
 h4 {
-  font-size: 30px;
+  font-size: 25px;
   margin: 10px 0;
   color: white;
   font-weight: bold;
@@ -29,14 +35,18 @@ h4 {
 strong {
   color: #00FF9C; }
 
+button {
+  font-size: 12px; }
+
 section {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background: url("../assets/Background Secondary.png");
-  background-size: cover !important; }
+  position: relative;
+  background-size: cover !important;
+  background: url("../assets/Background Secondary.png"); }
   section.main {
-    background: url("../assets/Background Primary.png"); }
+    background: url("http://i.imgur.com/5x0Qe98.png"); }
   section .container {
     display: flex;
     flex-direction: column;
@@ -46,11 +56,20 @@ section {
     margin: 0 auto;
     width: 100%; }
 
+.button-row-bottom {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
 .menu {
   position: fixed;
   top: 70px;
   left: 0;
-  right: 0; }
+  right: 0;
+  z-index: 1; }
   .menu .navbar {
     display: flex;
     justify-content: center; }
@@ -64,6 +83,10 @@ section {
       color: #ddd;
       transition: all 400ms;
       text-decoration: none; }
+      @media only screen and (max-width: 480px) {
+        .menu .navbar .nav-link {
+          width: auto;
+          margin-right: 15px; } }
       .menu .navbar .nav-link.active {
         color: #00FF9C;
         border-bottom: 4px solid #00FF9C; }
@@ -71,10 +94,12 @@ section {
         border-bottom: 4px solid #00FF9C; }
 
 .image-container .image-circle {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   background: white;
-  border-radius: 50%; }
+  border-radius: 50%;
+  background-size: cover !important;
+  background-position: center center !important; }
 
 .image-container .image-title {
   text-transform: uppercase;
@@ -85,6 +110,8 @@ section {
 
 .avatar-card {
   width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   height: 400px;
@@ -94,8 +121,22 @@ section {
     max-width: 370px;
     line-height: 70px; }
 
+button {
+  color: #00FF9C;
+  border: 3px solid #00FF9C;
+  padding: 15px 20px;
+  background: transparent;
+  min-width: 100px;
+  margin-right: 10px;
+  transition: all 400ms; }
+  button:hover {
+    background: #00FF9C;
+    color: #333; }
+  button.active {
+    color: #333;
+    background: #00FF9C; }
+
 body, html {
   height: 100%;
   width: 100%;
-  margin: 0;
-  background: #00FF9C; }
+  margin: 0; }

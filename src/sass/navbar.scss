@@ -1,10 +1,12 @@
 @import "colors.scss";
+@import "helpers/media.scss";
 
 .menu {
 	position: fixed;
 	top: 70px;
 	left: 0;
 	right: 0;
+	z-index: 1;
 	
 	.navbar {
 		
@@ -16,12 +18,16 @@
 			border-bottom: 4px solid transparent;
 			width: 100px;
 			text-align: center;
-			//margin-right:50px;
 			font-weight: bold;
 			text-transform: uppercase;
 			color: $white;
 			transition: all 400ms;
 			text-decoration: none;
+			
+			@include respond-to($phone) {
+				width: auto;
+				margin-right: 15px;
+			}
 			
 			&.active {
 				color: $action_green;

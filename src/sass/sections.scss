@@ -1,29 +1,35 @@
 section {
+	
 	display: flex;
 	justify-content: center;
 	height:100vh;
-	
-	background:url("../assets/Background Secondary.png");
-	
-	&.main {
-		background: url("../assets/Background Primary.png");
-	}
-	
+	position: relative;
 	background-size: cover !important;
 	
+	background:url("../assets/Background Secondary.png");
+	&.main { background: url("http://i.imgur.com/5x0Qe98.png") }
 	
 	.container {
 		
 		display: flex;
 		flex-direction: column;
-		//align-items: center;
 		justify-content: center;
-		
 		
 		max-width: 960px;
 		padding:0 10px;
 		margin: 0 auto;
 		width: 100%;
+		
 	}
 	
+}
+
+.button-row-bottom {
+	display: flex;
+	justify-content: center;
+	
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }

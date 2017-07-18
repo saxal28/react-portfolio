@@ -1,22 +1,24 @@
 import React from 'react'
-import Section from "./Section";
-import AvatarCard from "./common/AvatarCard";
+import Section from "./common/Section";
+// import {isMobile} from "../util";
+import {AboutSection} from "./AboutSection";
 
 export default class MainSection extends React.Component {
+
 	render() {
+
+		// const notMobile = isMobile() ? "true" : 'false';
+
 		return (
-			<div>
+			<div className="website-container">
+
 				<Section
 					title="Alan Sax"
 				    body="A Web Portfolio"
 				    main
 				/>
 
-				<Section>
-					<AvatarCard
-						body="Howdy! I'm Alan Sax. I design and code awesome apps."
-					/>
-				</Section>
+				<AboutSection/>
 
 			</div>
 		)

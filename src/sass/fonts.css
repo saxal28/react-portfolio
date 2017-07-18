@@ -11,6 +11,9 @@ h1 {
   margin: 20px 0;
   color: #ddd;
   text-shadow: 0px 2px 2px black; }
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 50px; } }
 
 h3 {
   font-size: 48px;
@@ -18,9 +21,12 @@ h3 {
   color: #00FF9C;
   font-weight: bold;
   text-transform: uppercase; }
+  @media only screen and (max-width: 480px) {
+    h3 {
+      font-size: 28px; } }
 
 h4 {
-  font-size: 30px;
+  font-size: 25px;
   margin: 10px 0;
   color: white;
   font-weight: bold;
@@ -28,3 +34,6 @@ h4 {
 
 strong {
   color: #00FF9C; }
+
+button {
+  font-size: 12px; }

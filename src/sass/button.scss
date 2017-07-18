@@ -1,0 +1,20 @@
+@import "colors.scss";
+
+button {
+	
+	color: $action_green;
+	border: 3px solid $action_green;
+	padding: 15px 20px;
+	background: transparent;
+	min-width: 100px;
+	margin-right:10px;
+	transition: all 400ms;
+	
+	&:hover { background: $action_green; color: $black;}
+	
+	&.active {
+		color: $black;
+		background: $action_green;
+	}
+	
+}

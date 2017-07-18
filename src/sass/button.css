@@ -1,0 +1,14 @@
+button {
+  color: #00FF9C;
+  border: 3px solid #00FF9C;
+  padding: 15px 20px;
+  background: transparent;
+  min-width: 100px;
+  margin-right: 10px;
+  transition: all 400ms; }
+  button:hover {
+    background: #00FF9C;
+    color: #333; }
+  button.active {
+    color: #333;
+    background: #00FF9C; }
