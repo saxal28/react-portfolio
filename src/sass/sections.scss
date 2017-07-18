@@ -33,3 +33,8 @@ section {
 	left: 0;
 	right: 0;
 }
+
+.flex-row {
+	display: flex;
+	justify-content: space-between;
+}

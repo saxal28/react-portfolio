@@ -30,11 +30,23 @@ export class AboutSection extends React.Component {
 					image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
 					imageTitle="Sup Bro"
 				/>}
-				{activeSlide === 2 && <AvatarCard
-					body="Section 2"
-					image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
-					imageTitle="Section 2"
-				/>}
+				{activeSlide === 2 && <div className="flex-row">
+					<AvatarCard
+						image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
+						imageTitle="Hobby 1"
+					    centered
+					/>
+					<AvatarCard
+						image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
+						imageTitle="Hobby 2"
+					    centered
+					/>
+					<AvatarCard
+						image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
+						imageTitle="Hobby 3"
+					    centered
+					/>
+				</div>}
 				{activeSlide === 3 && <AvatarCard
 					body="Section 3"
 					image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"

@@ -9,6 +9,9 @@ button {
 	min-width: 100px;
 	margin-right:10px;
 	transition: all 400ms;
+	outline: none;
+	
+	&:active, &:focus, &:visited { outline: none }
 	
 	&:hover { background: $action_green; color: $black;}
 	

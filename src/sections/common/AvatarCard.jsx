@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 import {ImageCircle} from "./ImageCircle";
-import {isMobile} from "../../util"
+import {isMobile} from "../../util";
 
 export default class AvatarCard extends React.Component {
 
 	render() {
 
-		const { image, body, imageTitle } = this.props;
+		const { image, body, imageTitle, centered } = this.props;
+		const isCentered = centered ? {justifyContent: 'center' } : {}
 
 		return (
-			<div className="avatar-card">
+			<div className="avatar-card" style={isCentered}>
 				<h4 className="card-body">
 					{body}
 				</h4>

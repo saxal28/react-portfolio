@@ -5,7 +5,10 @@ button {
   background: transparent;
   min-width: 100px;
   margin-right: 10px;
-  transition: all 400ms; }
+  transition: all 400ms;
+  outline: none; }
+  button:active, button:focus, button:visited {
+    outline: none; }
   button:hover {
     background: #00FF9C;
     color: #333; }

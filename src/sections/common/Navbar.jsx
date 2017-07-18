@@ -19,10 +19,10 @@ export default class Navbar extends React.Component {
 		return (
 			<div className="menu">
 				<div className="navbar">
-					<NavLink className="nav-link" to="/" activeClassName="active">Home</NavLink>
-					<NavLink className="nav-link" to="/about">About</NavLink>
-					<NavLink className="nav-link" to="/projects">Projects</NavLink>
-					<NavLink className="nav-link" to="/contact">Contact</NavLink>
+					<a className="nav-link" to="/" activeClassName="active">Home</a>
+					<a className="nav-link" to="/about">About</a>
+					<a className="nav-link" to="/projects">Projects</a>
+					<a className="nav-link" to="/contact">Contact</a>
 					{/*<i onClick={() => toggleMenuOverlay()} className="fa fa-bars" aria-hidden="true"></i>*/}
 				</div>
 				{/*<MenuOverlay visible={visible} toggleMenu={toggleMenuOverlay}/>*/}
