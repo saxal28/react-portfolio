@@ -94,7 +94,8 @@ section {
       height: auto;
       overflow-y: scroll;
       /* has to be scroll, not auto */
-      -webkit-overflow-scrolling: touch; } }
+      -webkit-overflow-scrolling: touch;
+      margin-top: 50px; } }
   .gallery-row .avatar-card {
     width: 200px;
     max-width: 650px;

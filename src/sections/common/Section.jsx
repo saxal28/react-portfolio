@@ -13,8 +13,8 @@ export default class Section extends React.Component {
 		return (
 			<section className={classes.join(" ")}>
 				<div className="container animated fadeIn">
-					<h1>{title}</h1>
-					<h3>{body}</h3>
+					{title && <h1>{title}</h1>}
+					{body && <h3>{body}</h3>}
 					{children}
 				</div>
 			</section>
