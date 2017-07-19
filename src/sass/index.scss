@@ -8,12 +8,22 @@
 @import "vendors/animate.css";
 @import "scrollbars.scss";
 
+@keyframes animatedBackground {
+	from { background-position: 100% 0; }
+	to { background-position: 0 0; }
+}
+
 body, html {
 	height: 100%;
 	width:100%;
 	margin: 0;
 	overflow: hidden;
 	
-	background-size: cover;
-	background:url("../assets/Background Secondary.png");
+	//background-size: cover;
+	//background:url("../assets/Background Secondary.png");
+	background:url("http://wallpapercave.com/wp/DvLzx5N.jpg");
+	//background: url("https://www.walldevil.com/wallpapers/a76/minimalistic-background-black-wallpaper-minimalist-multicolor-images.jpg");
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 40s linear infinite;
 }

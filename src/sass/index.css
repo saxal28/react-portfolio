@@ -95,7 +95,7 @@ section {
       overflow-y: scroll;
       /* has to be scroll, not auto */
       -webkit-overflow-scrolling: touch;
-      margin-top: 50px; } }
+      margin: 80px 0; } }
   .gallery-row .avatar-card {
     width: 200px;
     max-width: 650px;
@@ -203,10 +203,18 @@ button, .button {
   background-color: darkgrey;
   outline: 1px solid slategrey; }
 
+@keyframes animatedBackground {
+  from {
+    background-position: 100% 0; }
+  to {
+    background-position: 0 0; } }
+
 body, html {
   height: 100%;
   width: 100%;
   margin: 0;
   overflow: hidden;
-  background-size: cover;
-  background: url("../assets/Background Secondary.png"); }
+  background: url("http://wallpapercave.com/wp/DvLzx5N.jpg");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 40s linear infinite; }
