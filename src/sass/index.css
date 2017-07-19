@@ -205,7 +205,7 @@ button, .button {
 
 @keyframes animatedBackground {
   from {
-    background-position: 100% 0; }
+    background-position: 70% 0; }
   to {
     background-position: 0 0; } }
 
@@ -217,4 +217,4 @@ body, html {
   background: url("http://wallpapercave.com/wp/DvLzx5N.jpg");
   background-position: 0px 0px;
   background-repeat: repeat-x;
-  animation: animatedBackground 40s linear infinite; }
+  animation: animatedBackground 30s linear infinite; }
