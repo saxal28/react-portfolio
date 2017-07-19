@@ -1,17 +1,18 @@
 @import "colors.scss";
 
-button {
+button, .button {
 	
 	color: $action_green;
 	border: 3px solid $action_green;
 	padding: 15px 20px;
 	background: transparent;
 	min-width: 100px;
-	margin-right:10px;
+	margin: 0 5px;
 	transition: all 400ms;
 	outline: none;
+	text-decoration: none;
 	
-	&:active, &:focus, &:visited { outline: none }
+	&:active, &:focus, &:visited {  outline: none }
 	
 	&:hover { background: $action_green; color: $black;}
 	

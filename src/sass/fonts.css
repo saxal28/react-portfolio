@@ -12,7 +12,8 @@ h1 {
   color: #ddd; }
   @media only screen and (max-width: 480px) {
     h1 {
-      font-size: 50px; } }
+      font-size: 50px;
+      text-align: center; } }
 
 h3 {
   font-size: 48px;
@@ -22,7 +23,8 @@ h3 {
   text-transform: uppercase; }
   @media only screen and (max-width: 480px) {
     h3 {
-      font-size: 28px; } }
+      font-size: 28px;
+      text-align: center; } }
 
 h4 {
   font-size: 25px;

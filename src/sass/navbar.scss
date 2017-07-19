@@ -8,10 +8,16 @@
 	right: 0;
 	z-index: 1;
 	
+	//@include respond-to($phone) { top: 50px; }
+	
 	.navbar {
 		
 		display: flex;
 		justify-content: center;
+		
+		@include respond-to($phone) {
+			justify-content: space-around;
+		}
 		
 		.nav-link {
 			padding-bottom: 10px;
@@ -26,7 +32,6 @@
 			
 			@include respond-to($phone) {
 				width: auto;
-				margin-right: 15px;
 			}
 			
 			&.active {
@@ -35,7 +40,8 @@
 			}
 			
 			&:hover {
-				border-bottom: 4px solid $action_green;
+				border-bottom: 4px solid $hover_green;
+				color: $hover_green;
 			}
 			
 		}

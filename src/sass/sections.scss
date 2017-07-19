@@ -37,7 +37,26 @@ section {
 
 .flex-row {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	
+	.icon-link {
+		height: 90px;
+		width: 90px;
+		border-radius: 50%;
+		margin: 10px;
+		cursor: pointer;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(100%);
+		
+		transition: all 400ms;
+		
+		&:hover {
+			-webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+			filter: grayscale(30%);
+		}
+		
+	}
+	
 }
 
 

@@ -35,9 +35,9 @@ export class AboutSection extends React.Component {
 				{activeSlide === 1 && <AvatarCard
 					body="Howdy! I'm Alan Sax. I design and code awesome apps."
 					image="http://i.imgur.com/Op430uO.png"
-					imageTitle="Yo! It's A Me   "
+				    hideImageOnMobile
 				/>}
-				{activeSlide === 2 && <div className="flex-row">
+				{activeSlide === 2 && <div className="gallery-row">
 					<AvatarCard
 						image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
 						imageTitle="Hobby 1"

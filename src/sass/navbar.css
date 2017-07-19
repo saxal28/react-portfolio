@@ -7,6 +7,9 @@
   .menu .navbar {
     display: flex;
     justify-content: center; }
+    @media only screen and (max-width: 480px) {
+      .menu .navbar {
+        justify-content: space-around; } }
     .menu .navbar .nav-link {
       padding-bottom: 10px;
       border-bottom: 4px solid transparent;
@@ -19,10 +22,10 @@
       text-decoration: none; }
       @media only screen and (max-width: 480px) {
         .menu .navbar .nav-link {
-          width: auto;
-          margin-right: 15px; } }
+          width: auto; } }
       .menu .navbar .nav-link.active {
         color: #00FF9C;
         border-bottom: 4px solid #00FF9C; }
       .menu .navbar .nav-link:hover {
-        border-bottom: 4px solid #00FF9C; }
+        border-bottom: 4px solid #00b870;
+        color: #00b870; }

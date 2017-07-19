@@ -20,6 +20,7 @@ h1 {
 	
 	@include respond-to($phone) {
 		font-size: 50px;
+		text-align: center;
 	}
 	
 }
@@ -33,6 +34,7 @@ h3 {
 	
 	@include respond-to($phone) {
 		font-size: 28px;
+		text-align: center;
 	}
 	
 }
