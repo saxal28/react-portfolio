@@ -18,8 +18,6 @@ export default class MainSection extends React.Component {
 				    main
 				/>
 
-				<AboutSection/>
-
 			</div>
 		)
 	}

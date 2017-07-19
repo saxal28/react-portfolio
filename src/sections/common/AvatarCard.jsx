@@ -10,7 +10,7 @@ export default class AvatarCard extends React.Component {
 		const isCentered = centered ? {justifyContent: 'center' } : {}
 
 		return (
-			<div className="avatar-card" style={isCentered}>
+			<div className="avatar-card animated fadeIn" style={isCentered}>
 				<h4 className="card-body">
 					{body}
 				</h4>

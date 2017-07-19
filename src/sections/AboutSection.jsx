@@ -1,10 +1,15 @@
 import React from "react";
 import Section from "./common/Section";
 import AvatarCard from "./common/AvatarCard";
+import {highlightText} from "../util/index";
 
 export class AboutSection extends React.Component {
 
 	state = { activeSlide: 1 }
+
+	componentDidMount() {
+		highlightText(['code', 'design']);
+	}
 
 	setActiveSlide(num) {
 		this.setState({activeSlide: num})
@@ -20,15 +25,17 @@ export class AboutSection extends React.Component {
 		const isActive = this.isActive.bind(this)
 		const setActiveSlide = this.setActiveSlide.bind(this)
 
-		return (
-			<Section>
+		console.log("about section active slide", activeSlide)
 
+		return (
+
+			<Section>
 				{/*// TODO -- possibly pull out into seperate component if used elsewhere*/}
 
 				{activeSlide === 1 && <AvatarCard
 					body="Howdy! I'm Alan Sax. I design and code awesome apps."
-					image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
-					imageTitle="Sup Bro"
+					image="http://i.imgur.com/Op430uO.png"
+					imageTitle="Yo! It's A Me   "
 				/>}
 				{activeSlide === 2 && <div className="flex-row">
 					<AvatarCard

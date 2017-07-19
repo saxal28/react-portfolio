@@ -10,3 +10,7 @@
   .avatar-card .card-body {
     max-width: 370px;
     line-height: 70px; }
+    @media only screen and (max-width: 480px) {
+      .avatar-card .card-body {
+        line-height: 60px;
+        font-size: 24px; } }
