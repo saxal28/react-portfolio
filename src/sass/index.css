@@ -44,9 +44,7 @@ section {
   display: flex;
   justify-content: center;
   height: 100vh;
-  position: relative;
-  background-size: cover !important;
-  background: url("../assets/Background Secondary.png"); }
+  position: relative; }
   section.auto-height {
     height: auto; }
   section .container {
@@ -61,7 +59,7 @@ section {
 .button-row-bottom {
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0; }
@@ -91,6 +89,12 @@ section {
   overflow: auto;
   justify-content: center;
   height: 300px; }
+  @media only screen and (max-width: 480px) {
+    .gallery-row {
+      height: auto;
+      overflow-y: scroll;
+      /* has to be scroll, not auto */
+      -webkit-overflow-scrolling: touch; } }
   .gallery-row .avatar-card {
     width: 200px;
     max-width: 650px;
@@ -107,6 +111,9 @@ section {
   left: 0;
   right: 0;
   z-index: 1; }
+  @media only screen and (max-width: 480px) {
+    .menu {
+      top: 17px; } }
   .menu .navbar {
     display: flex;
     justify-content: center; }
@@ -199,4 +206,6 @@ body, html {
   height: 100%;
   width: 100%;
   margin: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  background-size: cover;
+  background: url("../assets/Background Secondary.png"); }

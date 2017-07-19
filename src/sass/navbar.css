@@ -4,6 +4,9 @@
   left: 0;
   right: 0;
   z-index: 1; }
+  @media only screen and (max-width: 480px) {
+    .menu {
+      top: 17px; } }
   .menu .navbar {
     display: flex;
     justify-content: center; }

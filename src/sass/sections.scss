@@ -4,9 +4,7 @@ section {
 	justify-content: center;
 	height:100vh;
 	position: relative;
-	background-size: cover !important;
-	
-	background:url("../assets/Background Secondary.png");
+
 	&.auto-height { height: auto; }
 	//&.main { background: url("http://i.imgur.com/5x0Qe98.png") }
 	
@@ -29,7 +27,7 @@ section {
 	display: flex;
 	justify-content: center;
 	
-	position:absolute;
+	position:fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -67,6 +65,12 @@ section {
 	overflow: auto;
 	justify-content: center;
 	height: 300px;
+	
+	@include respond-to($phone) {
+		height: auto;
+		overflow-y: scroll; /* has to be scroll, not auto */
+		-webkit-overflow-scrolling: touch;
+	}
 	
 	.avatar-card {
 		width: 200px;
