@@ -19,10 +19,11 @@ body, html {
 	margin: 0;
 	overflow: hidden;
 	
-	background:url("http://wallpapercave.com/wp/DvLzx5N.jpg");
+	//background:url("http://wallpapercave.com/wp/DvLzx5N.jpg");
+	background:url("http://i.imgur.com/zgMIWrO.jpg");
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
-	animation: animatedBackground 30s linear infinite;
+	//animation: animatedBackground 30s linear infinite;
 	
 	@include respond-to($phone) {
 		background:url("http://i.imgur.com/XcYNkH6.png");

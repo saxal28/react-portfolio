@@ -29,7 +29,7 @@ export class AboutSection extends React.Component {
 
 		return (
 
-			<Section>
+			<Section main>
 				{/*// TODO -- possibly pull out into seperate component if used elsewhere*/}
 
 				{activeSlide === 1 && <AvatarCard

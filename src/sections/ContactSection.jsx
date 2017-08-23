@@ -10,7 +10,7 @@ export class ContactSection extends React.Component {
 
 		return (
 
-			<Section>
+			<Section main>
 
 				 <div className="flex-row">
 					 <a href="https://github.com/saxal28" target="_blank"><img className="icon-link" src="https://www.hyper.no/assets/github-icon-213ce151062f75058d614837499b5855.svg"/></a>

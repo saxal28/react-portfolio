@@ -8,7 +8,12 @@ section {
 	position: relative;
 
 	&.auto-height { height: auto; }
-	//&.main { background: url("http://i.imgur.com/5x0Qe98.png") }
+	&.main {
+		background-image: url("http://i.imgur.com/zgMIWrO.jpg");
+		background-color: grey;
+		background-blend-mode: multiply;
+		transition: all 400ms;
+	}
 	
 	.container {
 		
@@ -40,8 +45,8 @@ section {
 	justify-content: center;
 	
 	.icon-link {
-		height: 90px;
-		width: 90px;
+		height: 70px;
+		width: 70px;
 		border-radius: 50%;
 		margin: 10px;
 		cursor: pointer;
@@ -66,8 +71,11 @@ section {
 	-ms-flex-pack: justify;
 	overflow: auto;
 	justify-content: center;
-	height: 300px;
-	
+	//height: 300px;
+	height:50vh;
+	border: 1px solid grey;
+	background: rgba(0,0,0,0.35);
+
 	@include respond-to($phone) {
 		height: auto;
 		overflow-y: scroll; /* has to be scroll, not auto */

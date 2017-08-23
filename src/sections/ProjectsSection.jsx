@@ -25,7 +25,7 @@ export class ProjectsSection extends React.Component {
 
 		return (
 
-			<Section>
+			<Section main>
 
 				{/*// TODO -- possibly pull out into seperate component if used elsewhere*/}
 				{/*TODO -- going to pull make sections of 3.*/}

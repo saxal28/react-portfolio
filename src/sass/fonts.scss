@@ -6,10 +6,12 @@
 	src: url('ABEAKRG.TTF');
 }
 
-$main-font: 'A';
+//$main-font: 'A';
+$main-font: "Nixie One";
+$secondary-font: "Abel";
 
 * {
-	font-family: $main-font;
+	font-family: $secondary-font;
 }
 		
 h1 {
@@ -17,6 +19,8 @@ h1 {
 	font-family: $main-font;
 	margin: 20px 0;
 	color: $white;
+	font-weight:100;
+	text-align: right;
 	
 	@include respond-to($phone) {
 		font-size: 50px;
@@ -26,11 +30,12 @@ h1 {
 }
 
 h3 {
-	font-size: 48px;
+	font-size: 38px;
 	margin: 10px 0;
 	color: $action_green;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: right;
 	
 	@include respond-to($phone) {
 		font-size: 28px;

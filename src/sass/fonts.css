@@ -3,24 +3,27 @@
   src: url("ABEAKRG.TTF"); }
 
 * {
-  font-family: "A"; }
+  font-family: "Abel"; }
 
 h1 {
   font-size: 85px;
-  font-family: "A";
+  font-family: "Nixie One";
   margin: 20px 0;
-  color: #ddd; }
+  color: #ddd;
+  font-weight: 100;
+  text-align: right; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 50px;
       text-align: center; } }
 
 h3 {
-  font-size: 48px;
+  font-size: 38px;
   margin: 10px 0;
   color: #00FF9C;
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: right; }
   @media only screen and (max-width: 480px) {
     h3 {
       font-size: 28px;
