@@ -15,14 +15,12 @@ $secondary-font: "Abel";
 }
 		
 h1 {
-	font-size: 65px;
-	font-family: $main-font;
-	margin: 20px 0;
-	color: $white;
+	font-size: 50px;
+	font-family: Caveat;
+	margin: 10px 0;
 	font-weight:100;
-	text-align: left;
-	padding-left:20px;
-	
+	text-align: center;
+
 	@include respond-to($phone) {
 		font-size: 50px;
 		text-align: center;
@@ -54,9 +52,9 @@ h3 {
 
 h4 {
 	font-size: 25px;
-	margin: 10px 0;
+	margin: 5px 0;
 	color: #222;
-	font-weight: bold;
+	font-weight: 100;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }

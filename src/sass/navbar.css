@@ -19,10 +19,11 @@
     display: block;
     text-decoration: none;
     color: white;
-    margin: 10px 0;
+    margin: 20px 0;
     transition: all 300ms;
     text-align: center;
-    font-size: 16px; }
+    font-size: 18px;
+    text-transform: uppercase; }
   .menu.open {
     width: 200px; }
   .menu.close {
@@ -32,7 +33,7 @@
 
 .fa-bars {
   position: fixed;
-  top: 0px;
+  top: 0;
   left: 0;
   cursor: pointer;
   z-index: 10;
@@ -43,4 +44,4 @@
   .fa-bars.navbar-open {
     left: 190px; }
   .fa-bars.navbar-close {
-    left: 0px; }
+    left: 0; }

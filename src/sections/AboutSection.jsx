@@ -37,23 +37,25 @@ export class AboutSection extends React.Component {
 					image="http://i.imgur.com/Op430uO.png"
 				    hideImageOnMobile
 				/>}
+
 				{activeSlide === 2 && <div className="gallery-row">
 					<AvatarCard
 						image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
-						imageTitle="Hobby 1"
+						imageTitle="Playing Guitar"
 					    centered
 					/>
 					<AvatarCard
 						image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
-						imageTitle="Hobby 2"
+						imageTitle="Fitness/Outdoors"
 					    centered
 					/>
 					<AvatarCard
 						image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"
-						imageTitle="Hobby 3"
+						imageTitle="Making Cool Stuff"
 					    centered
 					/>
 				</div>}
+
 				{activeSlide === 3 && <AvatarCard
 					body="Section 3"
 					image="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg"

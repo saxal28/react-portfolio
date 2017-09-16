@@ -18,24 +18,24 @@ export default class MainSection extends React.Component {
 
 					<div className="grid">
 
-						<div className="col-4_xs-12">
-                            <Card>
+						<div className="col-4_sm-12">
+                            <Card >
                                 <h1>Alan Sax</h1>
-                                <h4>A Web Portfolio</h4>
+                                <h2>A Web Portfolio</h2>
                             </Card>
 						</div>
 
-						<div className="col-8_xs-12">
+						<div className="col-8_sm-12">
 							<Card title="HOWDY! I'M ALAN SAX. I DESIGN AND CODE AWESOME APPS." />
 						</div>
 
-						<div className="col-6_xs-12">
+						<div className="col-6_sm-12">
 							<Card
                                 image="https://i.imgur.com/qM49peh.png"
                             />
 						</div>
 
-						<div className="col-3_xs-12">
+						<div className="col-3_sm-0_xs-0">
                             <Card >
                                 <div>
                                     <h2>Check Out My Current Project!</h2>
@@ -46,19 +46,19 @@ export default class MainSection extends React.Component {
                             </Card>
 						</div>
 
-						<div className="col-3_xs-12">
+						<div className="col-3_sm-0_xs-0">
 							<Card title="hi" />
 						</div>
 
-						<div className="col-4_xs-12">
+						<div className="col-4_sm-12">
 							<Card title="Web Projects" />
 						</div>
 
-						<div className="col-4_xs-12">
+						<div className="col-4_sm-12">
 							<Card title="Web Design" />
 						</div>
 
-						<div className="col-4_xs-12">
+						<div className="col-4_sm-12">
                             <Card>
 
                                 <div className="flex-row">

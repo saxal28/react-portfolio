@@ -3,18 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e07dc99b-279d-4ca0-923e-2d996bbada6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/button.scss" afterPath="$PROJECT_DIR$/src/sass/button.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/card.css" afterPath="$PROJECT_DIR$/src/sass/card.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/card.scss" afterPath="$PROJECT_DIR$/src/sass/card.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/fonts.css" afterPath="$PROJECT_DIR$/src/sass/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/fonts.scss" afterPath="$PROJECT_DIR$/src/sass/fonts.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/index.css" afterPath="$PROJECT_DIR$/src/sass/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/sections.css" afterPath="$PROJECT_DIR$/src/sass/sections.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/sections.scss" afterPath="$PROJECT_DIR$/src/sass/sections.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/ContactSection.jsx" afterPath="$PROJECT_DIR$/src/sections/ContactSection.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/navbar.css" afterPath="$PROJECT_DIR$/src/sass/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/navbar.scss" afterPath="$PROJECT_DIR$/src/sass/navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/AboutSection.jsx" afterPath="$PROJECT_DIR$/src/sections/AboutSection.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/MainSection.jsx" afterPath="$PROJECT_DIR$/src/sections/MainSection.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/ProjectsSection.jsx" afterPath="$PROJECT_DIR$/src/sections/ProjectsSection.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/common/Card.jsx" afterPath="$PROJECT_DIR$/src/sections/common/Card.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/common/Navbar.jsx" afterPath="$PROJECT_DIR$/src/sections/common/Navbar.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Navbar.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/common/Navbar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainSection.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sections/MainSection.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+            <state relative-caret-position="399">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -47,31 +56,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectsSection.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sections/ProjectsSection.jsx">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+            <state relative-caret-position="20">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/Projects.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="175">
+              <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navbar.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/navbar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutSection.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/AboutSection.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/card.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            <state relative-caret-position="589">
+              <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -90,38 +119,8 @@
       <file leaf-file-name="fonts.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sections.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/sections.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactSection.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sections/ContactSection.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sections/common/Card.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="329">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -192,29 +191,29 @@
         <option value="$PROJECT_DIR$/data/Projects.js" />
         <option value="$PROJECT_DIR$/src/sass/scrollbars.scss" />
         <option value="$PROJECT_DIR$/src/sections/common/Section.jsx" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Routes.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/enums/warning-enums.js" />
         <option value="$PROJECT_DIR$/src/sections/common/Warning.jsx" />
-        <option value="$PROJECT_DIR$/src/sections/common/Navbar.jsx" />
         <option value="$PROJECT_DIR$/src/sass/image-circle.scss" />
         <option value="$PROJECT_DIR$/src/sass/index.scss" />
         <option value="$PROJECT_DIR$/src/sass/colors.scss" />
-        <option value="$PROJECT_DIR$/src/sections/AboutSection.jsx" />
         <option value="$PROJECT_DIR$/src/sass/sections.css" />
         <option value="$PROJECT_DIR$/src/sections/common/AvatarCard.jsx" />
-        <option value="$PROJECT_DIR$/src/sass/navbar.scss" />
         <option value="$PROJECT_DIR$/src/sass/warning.scss" />
         <option value="$PROJECT_DIR$/src/data/Projects.js" />
         <option value="$PROJECT_DIR$/src/sass/button.scss" />
-        <option value="$PROJECT_DIR$/src/sections/common/Card.jsx" />
-        <option value="$PROJECT_DIR$/src/sass/fonts.scss" />
         <option value="$PROJECT_DIR$/src/sections/ContactSection.jsx" />
         <option value="$PROJECT_DIR$/src/sass/sections.scss" />
-        <option value="$PROJECT_DIR$/src/sections/MainSection.jsx" />
-        <option value="$PROJECT_DIR$/src/sass/card.scss" />
         <option value="$PROJECT_DIR$/src/sections/ProjectsSection.jsx" />
+        <option value="$PROJECT_DIR$/src/sass/navbar.scss" />
+        <option value="$PROJECT_DIR$/src/sections/common/Navbar.jsx" />
+        <option value="$PROJECT_DIR$/src/sections/AboutSection.jsx" />
+        <option value="$PROJECT_DIR$/src/sections/MainSection.jsx" />
+        <option value="$PROJECT_DIR$/src/sections/common/Card.jsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/sass/fonts.scss" />
+        <option value="$PROJECT_DIR$/src/sass/card.scss" />
       </list>
     </option>
   </component>
@@ -312,7 +311,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="M&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/MainSection.jsx&#10;Contac&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/ContactSection.jsx&#10;Card&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/common/Card.jsx&#10;card&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/card.scss&#10;button&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/button.scss&#10;sections&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.scss&#10;Projec&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/data/Projects.js&#10;warn&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/warning.scss&#10;nav&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/navbar.scss&#10;sec&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.scss&#10;sectio&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.css&#10;button-row-bottom&#9;null&#9;null&#10;navba&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/navbar.scss&#10;Project&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/ProjectsSection.jsx&#10;wA&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/warning.scss&#10;warning&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/warning.scss&#10;Ms&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/MainSection.jsx&#10;section&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.css&#10;Proj&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/ProjectsSection.jsx&#10;AboutS&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/AboutSection.jsx&#10;main&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/MainSection.jsx&#10;index&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/index.scss&#10;fonts&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/fonts.scss&#10;avatar&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;Nav&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/common/Navbar.jsx&#10;background&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/assets/Background Primary.png&#10;index.&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/public/index.html&#10;htm&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/public/index.html&#10;SEction&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/Section.jsx&#10;ava&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;navb&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/navbar.scss&#10;Av&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;abou&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/AboutSection.jsx&#10;route&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/Routes.jsx&#10;colo&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/colors.scss&#10;font&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/fonts.scss&#10;na&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/navbar.scss&#10;About&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/AboutSection.jsx&#10;sections.scss&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/sections.scss&#10;avat&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;container&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/Routes.jsx&#10;fon&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/fonts.scss&#10;se&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/sections.scss&#10;avatar-card&#9;null&#9;null&#10;body&#9;null&#9;null&#10;Menu&#9;null&#9;null&#10;html&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/public/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="fon&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/fonts.scss&#10;htm&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/public/index.html&#10;About&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/AboutSection.jsx&#10;main&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/MainSection.jsx&#10;html&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/public/index.html&#10;Nav&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/common/Navbar.jsx&#10;navba&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/navbar.scss&#10;M&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/MainSection.jsx&#10;Contac&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/ContactSection.jsx&#10;Card&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/common/Card.jsx&#10;card&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/card.scss&#10;button&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/button.scss&#10;sections&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.scss&#10;Projec&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/data/Projects.js&#10;warn&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/warning.scss&#10;nav&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/navbar.scss&#10;sec&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.scss&#10;sectio&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.css&#10;button-row-bottom&#9;null&#9;null&#10;Project&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/ProjectsSection.jsx&#10;wA&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/warning.scss&#10;warning&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/warning.scss&#10;Ms&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/MainSection.jsx&#10;section&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/sections.css&#10;Proj&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/ProjectsSection.jsx&#10;AboutS&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/AboutSection.jsx&#10;index&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/index.scss&#10;fonts&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sass/fonts.scss&#10;avatar&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;background&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/src/assets/Background Primary.png&#10;index.&#9;FILE&#9;file:///home/alan/Web Projects/react-portfolio/public/index.html&#10;SEction&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/Section.jsx&#10;ava&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;navb&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/navbar.scss&#10;Av&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;abou&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/AboutSection.jsx&#10;route&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/Routes.jsx&#10;colo&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/colors.scss&#10;font&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/fonts.scss&#10;na&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/navbar.scss&#10;sections.scss&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/sections.scss&#10;avat&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sections/common/AvatarCard.jsx&#10;container&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/Routes.jsx&#10;se&#9;FILE&#9;file:///Users/alan/WebstormProjects/react-portfolio/src/sass/sections.scss&#10;avatar-card&#9;null&#9;null&#10;body&#9;null&#9;null&#10;Menu&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -425,16 +424,15 @@
       <workItem from="1500473981775" duration="2477000" />
       <workItem from="1500498899225" duration="208000" />
       <workItem from="1503463455654" duration="2132000" />
-      <workItem from="1505514224504" duration="26890000" />
+      <workItem from="1505514224504" duration="30566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62602000" />
+    <option name="totallyTimeSpent" value="66278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1280" height="1024" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2776452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -444,7 +442,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225664" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225664" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -577,14 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="14" column="103" lean-forward="false" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/Background Primary.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -622,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/common/Navbar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/image-circle.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -648,26 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/AboutSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -696,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/common/AvatarCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -716,14 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/common/Card.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -744,36 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/MainSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -788,8 +712,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/ProjectsSection.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        <state relative-caret-position="119">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/common/Navbar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/AboutSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/common/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/MainSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
           <folding />
         </state>
       </provider>

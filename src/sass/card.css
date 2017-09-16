@@ -52,3 +52,12 @@
   .card .image-container {
     text-align: center;
     width: 100%; }
+  .card .button-row-bottom {
+    bottom: 0; }
+    .card .button-row-bottom .button {
+      width: 100%;
+      min-width: inherit;
+      margin: 0;
+      text-align: center;
+      background: crimson;
+      color: white; }

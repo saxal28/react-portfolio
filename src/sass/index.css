@@ -7,13 +7,11 @@
   font-family: "Abel"; }
 
 h1 {
-  font-size: 65px;
-  font-family: "A";
-  margin: 20px 0;
-  color: #ddd;
+  font-size: 50px;
+  font-family: Caveat;
+  margin: 10px 0;
   font-weight: 100;
-  text-align: left;
-  padding-left: 20px; }
+  text-align: center; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 50px;
@@ -39,9 +37,9 @@ h3 {
 
 h4 {
   font-size: 25px;
-  margin: 10px 0;
+  margin: 5px 0;
   color: #222;
-  font-weight: bold;
+  font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -146,10 +144,11 @@ section {
     display: block;
     text-decoration: none;
     color: white;
-    margin: 10px 0;
+    margin: 20px 0;
     transition: all 300ms;
     text-align: center;
-    font-size: 16px; }
+    font-size: 18px;
+    text-transform: uppercase; }
   .menu.open {
     width: 200px; }
   .menu.close {
@@ -159,7 +158,7 @@ section {
 
 .fa-bars {
   position: fixed;
-  top: 0px;
+  top: 0;
   left: 0;
   cursor: pointer;
   z-index: 10;
@@ -170,7 +169,7 @@ section {
   .fa-bars.navbar-open {
     left: 190px; }
   .fa-bars.navbar-close {
-    left: 0px; }
+    left: 0; }
 
 .image-container .image-circle {
   width: 220px;
@@ -241,6 +240,15 @@ section {
   .card .image-container {
     text-align: center;
     width: 100%; }
+  .card .button-row-bottom {
+    bottom: 0; }
+    .card .button-row-bottom .button {
+      width: 100%;
+      min-width: inherit;
+      margin: 0;
+      text-align: center;
+      background: crimson;
+      color: white; }
 
 button, .button {
   color: crimson;
