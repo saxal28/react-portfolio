@@ -1,18 +1,19 @@
 button, .button {
-  color: #00FF9C;
-  border: 3px solid #00FF9C;
-  padding: 15px 20px;
+  color: crimson;
+  border: 2px solid crimson;
+  padding: 10px 15px;
   background: transparent;
   min-width: 100px;
-  margin: 0 5px;
+  margin: 0 2px;
   transition: all 400ms;
   outline: none;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 14px; }
   button:active, button:focus, button:visited, .button:active, .button:focus, .button:visited {
     outline: none; }
   button:hover, .button:hover {
-    background: #00FF9C;
+    background: crimson;
     color: #333; }
   button.active, .button.active {
-    color: #333;
-    background: #00FF9C; }
+    color: white;
+    background: crimson; }

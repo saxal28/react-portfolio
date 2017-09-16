@@ -44,11 +44,40 @@ export class ProjectsSection extends React.Component {
 					})}
 				</div>}
 
-				{/*<div className="button-row-bottom">*/}
-					{/*<button className={`${isActive(1)}`} onClick={() => setActiveSlide(1)}>Bio</button>*/}
-					{/*<button className={`${isActive(2)}`} onClick={() => setActiveSlide(2)}>Hobbies</button>*/}
-					{/*<button className={`${isActive(3)}`} onClick={() => setActiveSlide(3)}>Projects</button>*/}
-				{/*</div>*/}
+                {activeSlide === 2 && <div className="gallery-row">
+
+					<AvatarCard
+						image="https://i.imgur.com/PhwLGWg.png"
+						imageTitle="Happily Ever After STL"
+						centered
+						animation="slideInLeft"
+						onClick=""
+					/>
+
+				</div>}
+
+                {activeSlide === 3 && <div className="gallery-row">
+
+                    {Projects.map(project => {
+                        return (
+							<AvatarCard
+								image={project.image}
+								imageTitle={project.imageTitle}
+								centered
+								animation="slideInLeft"
+							/>
+                        )
+                    })}
+				</div>}
+
+
+
+				<div className="button-row-bottom">
+					<button className={`${isActive(1)}`} onClick={() => setActiveSlide(1)}>Archived</button>
+					<button className={`${isActive(2)}`} onClick={() => setActiveSlide(2)}>In Progress</button>
+					<button className={`${isActive(3)}`} onClick={() => setActiveSlide(3)}>Future</button>
+				</div>
+
 			</Section>
 		)
 	}

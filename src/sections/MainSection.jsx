@@ -7,7 +7,7 @@ export default class MainSection extends React.Component {
 
 	render() {
 
-		// const notMobile = isMobile() ? "true" : 'false';
+        const navigateTo = this.props.router
 
 		return (
 			<div className="website-container">
@@ -18,32 +18,36 @@ export default class MainSection extends React.Component {
 
 					<div className="grid">
 
-						<div className="col-4_sm-12">
-							<Card title="Alan Sax" subtitle="Subtitle"/>
+						<div className="col-4_xs-12">
+							<Card image="https://i.imgur.com/uWaQx6B.jpg" subtitle="Alan"/>
 						</div>
 
-						<div className="col-8_sm-12">
+						<div className="col-8_xs-12">
 							<Card title="HOWDY! I'M ALAN SAX. I DESIGN AND CODE AWESOME APPS." />
 						</div>
 
-						<div className="col-7_sm-12">
+						<div className="col-6_xs-12">
 							<Card title="Check Out My Latest Project" />
 						</div>
 
-						<div className="col-5_sm-12">
-							<Card title="hi" />
+						<div className="col-3_xs-12">
+							<Card subtitle="hi" />
 						</div>
 
-						<div className="col-4_sm-12">
-							<Card title="Web Projects" />
+						<div className="col-3_xs-12">
+							<Card subtitle="hi" />
 						</div>
 
-						<div className="col-4_sm-12">
-							<Card title="Web Design" />
+						<div className="col-4_xs-12">
+							<Card subtitle="Web Projects" />
 						</div>
 
-						<div className="col-4_sm-12">
-							<Card title="Download Resume" />
+						<div className="col-4_xs-12">
+							<Card subtitle="Web Design" />
+						</div>
+
+						<div className="col-4_xs-12">
+							<Card subtitle="Download Resume" />
 						</div>
 
 						{/*<div className="pattern">*/}

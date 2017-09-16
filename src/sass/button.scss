@@ -2,23 +2,24 @@
 
 button, .button {
 	
-	color: $action_green;
-	border: 3px solid $action_green;
-	padding: 15px 20px;
+	color: $red;
+	border: 2px solid $red;
+	padding: 10px 15px;
 	background: transparent;
 	min-width: 100px;
-	margin: 0 5px;
+	margin: 0 2px;
 	transition: all 400ms;
 	outline: none;
 	text-decoration: none;
+	font-size:14px;
 	
 	&:active, &:focus, &:visited {  outline: none }
 	
-	&:hover { background: $action_green; color: $black;}
+	&:hover { background: $red; color: $black;}
 	
 	&.active {
-		color: $black;
-		background: $action_green;
+		color: white;
+		background: $red;
 	}
 	
 }

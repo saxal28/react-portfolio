@@ -65,6 +65,7 @@ export class AboutSection extends React.Component {
 					<button className={`${isActive(2)}`} onClick={() => setActiveSlide(2)}>Hobbies</button>
 					<button className={`${isActive(3)}`} onClick={() => setActiveSlide(3)}>Projects</button>
 				</div>
+
 			</Section>
 		)
 	}

@@ -29,7 +29,7 @@ section {
 		overflow: auto;
 		-webkit-overflow-scrolling: touch;
 
-		@include respond-to($phone) { margin-top: 70px; };
+		//@include respond-to($phone) { margin-top: 70px; };
 		
 	}
 	
@@ -39,10 +39,13 @@ section {
 	display: flex;
 	justify-content: center;
 	
-	position:fixed;
-	bottom: 0;
+	position:absolute;
+	bottom: 20px;
 	left: 0;
 	right: 0;
+    max-width:400px;
+    margin: 0 auto;
+
 }
 
 .flex-row {
@@ -71,6 +74,7 @@ section {
 
 
 .gallery-row {
+  position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	-ms-flex-pack: justify;

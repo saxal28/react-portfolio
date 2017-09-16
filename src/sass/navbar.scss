@@ -2,7 +2,7 @@
 
 .menu {
 	height: 100vh;
-	background: #222;
+	background: crimson;
 
 	display: flex;
 	justify-content: space-around;
@@ -28,12 +28,13 @@
 		margin: 10px 0;
         transition: all 300ms;
         text-align: center;
+        font-size: 16px;
 
 	}
 
     &.open {
 
-      width: 100px;
+      width: 200px;
 
     }
 
@@ -48,13 +49,18 @@
 
 .fa-bars {
   position: fixed;
-  top: 20px;
+  top: 0px;
+  left:0;
   cursor: pointer;
   z-index:10;
 
   transition: all 300ms;
 
-  &.navbar-open { left: 110px; }
-  &.navbar-close { left: 10px }
+  padding: 20px;
+  background: crimson;
+  color: white;
+
+  &.navbar-open { left: 190px; }
+  &.navbar-close { left: 0px }
 
 }

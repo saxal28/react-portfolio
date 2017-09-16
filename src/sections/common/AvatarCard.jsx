@@ -6,7 +6,7 @@ export default class AvatarCard extends React.Component {
 
 	render() {
 
-		const { image, body, imageTitle, centered, hideImageOnMobile } = this.props;
+		const { image, body, imageTitle, centered, hideImageOnMobile, link } = this.props;
 		const isCentered = centered ? {justifyContent: 'center' } : {}
 
 		const imageHide = (hideImageOnMobile && isMobile()) ? true : false;
