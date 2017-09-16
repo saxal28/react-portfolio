@@ -12,7 +12,7 @@ h1 {
   margin: 20px 0;
   color: #ddd;
   font-weight: 100;
-  text-align: right; }
+  text-align: center; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 50px;
@@ -24,7 +24,7 @@ h3 {
   color: #00FF9C;
   font-weight: bold;
   text-transform: uppercase;
-  text-align: right; }
+  text-align: center; }
   @media only screen and (max-width: 480px) {
     h3 {
       font-size: 28px;
@@ -33,7 +33,7 @@ h3 {
 h4 {
   font-size: 25px;
   margin: 10px 0;
-  color: white;
+  color: #222;
   font-weight: bold;
   text-transform: uppercase; }
 
@@ -51,8 +51,6 @@ section {
   section.auto-height {
     height: auto; }
   section.main {
-    background-image: url("http://i.imgur.com/zgMIWrO.jpg");
-    background-color: grey;
     background-blend-mode: multiply;
     transition: all 400ms; }
   section .container {
@@ -62,7 +60,12 @@ section {
     max-width: 960px;
     padding: 0 10px;
     margin: 0 auto;
-    width: 100%; }
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; }
+    @media only screen and (max-width: 480px) {
+      section .container {
+        margin-top: 70px; } }
 
 .button-row-bottom {
   display: flex;
@@ -96,9 +99,7 @@ section {
   -ms-flex-pack: justify;
   overflow: auto;
   justify-content: center;
-  height: 50vh;
-  border: 1px solid grey;
-  background: rgba(0, 0, 0, 0.35); }
+  height: 60vh; }
   @media only screen and (max-width: 480px) {
     .gallery-row {
       height: auto;
@@ -117,39 +118,46 @@ section {
     height: auto; }
 
 .menu {
-  position: fixed;
-  top: 70px;
-  left: 0;
-  right: 0;
-  z-index: 1; }
+  height: 100vh;
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  transition: all 300ms; }
   @media only screen and (max-width: 480px) {
     .menu {
-      top: 17px; } }
-  .menu .navbar {
-    display: flex;
-    justify-content: center; }
-    @media only screen and (max-width: 480px) {
-      .menu .navbar {
-        justify-content: space-around; } }
-    .menu .navbar .nav-link {
-      padding-bottom: 10px;
-      border-bottom: 4px solid transparent;
-      width: 100px;
-      text-align: center;
-      font-weight: bold;
-      text-transform: uppercase;
-      color: #ddd;
-      transition: all 400ms;
-      text-decoration: none; }
-      @media only screen and (max-width: 480px) {
-        .menu .navbar .nav-link {
-          width: auto; } }
-      .menu .navbar .nav-link.active {
-        color: #00FF9C;
-        border-bottom: 4px solid #00FF9C; }
-      .menu .navbar .nav-link:hover {
-        border-bottom: 4px solid #00b870;
-        color: #00b870; }
+      position: fixed;
+      padding: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 50%;
+      z-index: 100; } }
+  .menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    transition: all 300ms;
+    text-align: center; }
+  .menu.open {
+    width: 100px; }
+  .menu.close {
+    width: 0; }
+    .menu.close a {
+      transform: translate(-90px); }
+
+.fa-bars {
+  position: fixed;
+  top: 20px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 300ms; }
+  .fa-bars.navbar-open {
+    left: 110px; }
+  .fa-bars.navbar-close {
+    left: 10px; }
 
 .image-container .image-circle {
   width: 220px;
@@ -164,7 +172,7 @@ section {
   padding-top: 30px;
   text-align: center;
   width: 100%;
-  color: white; }
+  color: #222; }
 
 .avatar-card {
   width: 100%;
@@ -174,7 +182,8 @@ section {
   flex-direction: row;
   height: 400px;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex-direction: row-reverse; }
   .avatar-card .card-body {
     max-width: 370px;
     line-height: 70px; }
@@ -183,6 +192,21 @@ section {
         line-height: 60px;
         font-size: 19px;
         text-align: center; } }
+
+.card {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0px 1px 2px #333;
+  user-select: none; }
+  .card h2, .card p {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center; }
 
 button, .button {
   color: #00FF9C;
@@ -213,6 +237,22 @@ button, .button {
   background-color: darkgrey;
   outline: 1px solid slategrey; }
 
+.warning {
+  background: crimson;
+  padding: 5px 20px;
+  position: absolute;
+  top: 20px;
+  right: -500px;
+  box-shadow: 0px 1px 2px #333;
+  transition: all 300ms; }
+  .warning h4 {
+    font-size: 18px;
+    color: white; }
+  .warning.slide-out {
+    right: 20px; }
+  .warning.slide-in {
+    right: -500px; }
+
 @keyframes animatedBackground {
   from {
     background-position: 70% 0; }
@@ -224,14 +264,10 @@ body, html {
   width: 100%;
   margin: 0;
   overflow: hidden;
-  background: url("http://i.imgur.com/zgMIWrO.jpg");
-  background-position: 0px 0px;
-  background-repeat: repeat-x; }
+  background: url("http://www.dream-wallpaper.com/free-wallpaper/art-wallpaper/minimalist-design-2-wallpaper/1680x1050/free-wallpaper-16.jpg");
+  background-size: cover; }
   @media only screen and (max-width: 480px) {
     body, html {
-      background: url("http://i.imgur.com/XcYNkH6.png");
-      background-color: #333;
-      background-blend-mode: darken;
       background-position: 0px 0px;
       background-repeat: repeat-x;
       animation: animatedBackground 40s linear infinite; } }

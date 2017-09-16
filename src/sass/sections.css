@@ -6,8 +6,6 @@ section {
   section.auto-height {
     height: auto; }
   section.main {
-    background-image: url("http://i.imgur.com/zgMIWrO.jpg");
-    background-color: grey;
     background-blend-mode: multiply;
     transition: all 400ms; }
   section .container {
@@ -17,7 +15,12 @@ section {
     max-width: 960px;
     padding: 0 10px;
     margin: 0 auto;
-    width: 100%; }
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; }
+    @media only screen and (max-width: 480px) {
+      section .container {
+        margin-top: 70px; } }
 
 .button-row-bottom {
   display: flex;
@@ -51,9 +54,7 @@ section {
   -ms-flex-pack: justify;
   overflow: auto;
   justify-content: center;
-  height: 50vh;
-  border: 1px solid grey;
-  background: rgba(0, 0, 0, 0.35); }
+  height: 60vh; }
   @media only screen and (max-width: 480px) {
     .gallery-row {
       height: auto;

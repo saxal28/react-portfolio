@@ -7,6 +7,7 @@
 @import "button.scss";
 @import "vendors/animate.css";
 @import "scrollbars.scss";
+@import "warning.scss";
 
 @keyframes animatedBackground {
 	from { background-position: 70% 0; }
@@ -15,20 +16,20 @@
 
 body, html {
 	height: 100%;
-	width:100%;
+	width: 100%;
 	margin: 0;
 	overflow: hidden;
 	
-	//background:url("http://wallpapercave.com/wp/DvLzx5N.jpg");
-	background:url("http://i.imgur.com/zgMIWrO.jpg");
-	background-position: 0px 0px;
-	background-repeat: repeat-x;
+	background:url("http://www.dream-wallpaper.com/free-wallpaper/art-wallpaper/minimalist-design-2-wallpaper/1680x1050/free-wallpaper-16.jpg");
+	background-size:cover;
+	//background-position: 0px 0px;
+	//background-repeat: repeat-x;
 	//animation: animatedBackground 30s linear infinite;
 	
 	@include respond-to($phone) {
-		background:url("http://i.imgur.com/XcYNkH6.png");
-		background-color: #333;
-		background-blend-mode: darken;
+		//background:url("http://i.imgur.com/XcYNkH6.png");
+		//background-color: #333;
+		//background-blend-mode: darken;
 		
 		background-position: 0px 0px;
 		background-repeat: repeat-x;

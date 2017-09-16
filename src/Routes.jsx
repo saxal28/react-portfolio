@@ -9,7 +9,7 @@ export default class Routes extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div style={{flex: "1"}}>
 				<Route exact path="/" component={MainSection} />
 				<Route path="/about" component={AboutSection} />
 				<Route path="/projects" component={ProjectsSection} />

@@ -20,7 +20,7 @@ h1 {
 	margin: 20px 0;
 	color: $white;
 	font-weight:100;
-	text-align: right;
+	text-align: center;
 	
 	@include respond-to($phone) {
 		font-size: 50px;
@@ -35,7 +35,7 @@ h3 {
 	color: $action_green;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-align: right;
+	text-align: center;
 	
 	@include respond-to($phone) {
 		font-size: 28px;
@@ -47,7 +47,7 @@ h3 {
 h4 {
 	font-size: 25px;
 	margin: 10px 0;
-	color: white;
+	color: #222;
 	font-weight: bold;
 	text-transform: uppercase;
 }
