@@ -53,12 +53,26 @@
         font-size: 1em;
 	}
 
-    h2 { color: $red; text-transform: uppercase }
+    h2 { color:grey; text-transform: uppercase }
+
+    p {
+      max-width: 400px;
+      line-height: 1.7;
+    }
 
     .card-label {
       position: absolute;
       top: 10px; left:0; right: 0;
       text-align: center;
+    }
+
+    .image-title {
+      color: white;
+    }
+
+    .image-container {
+      text-align: center;
+      width: 100%;
     }
 
 }

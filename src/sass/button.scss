@@ -15,7 +15,7 @@ button, .button {
 	
 	&:active, &:focus, &:visited {  outline: none }
 	
-	&:hover { background: $red; color: $black;}
+	&:hover { background: $red; color: $black; }
 	
 	&.active {
 		color: white;

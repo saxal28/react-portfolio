@@ -7,12 +7,13 @@
   font-family: "Abel"; }
 
 h1 {
-  font-size: 85px;
+  font-size: 65px;
   font-family: "A";
   margin: 20px 0;
   color: #ddd;
   font-weight: 100;
-  text-align: center; }
+  text-align: left;
+  padding-left: 20px; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 50px;
@@ -85,10 +86,10 @@ section {
   display: flex;
   justify-content: center; }
   .flex-row .icon-link {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 5px;
     cursor: pointer;
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
@@ -224,14 +225,22 @@ section {
     text-align: center;
     font-size: 1em; }
   .card h2 {
-    color: crimson;
+    color: grey;
     text-transform: uppercase; }
+  .card p {
+    max-width: 400px;
+    line-height: 1.7; }
   .card .card-label {
     position: absolute;
     top: 10px;
     left: 0;
     right: 0;
     text-align: center; }
+  .card .image-title {
+    color: white; }
+  .card .image-container {
+    text-align: center;
+    width: 100%; }
 
 button, .button {
   color: crimson;

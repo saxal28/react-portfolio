@@ -2,6 +2,7 @@ import React from "react";
 import Section from "./common/Section";
 import AvatarCard from "./common/AvatarCard";
 import {Projects} from "../data/Projects";
+import {Card} from "./common/Card";
 
 export class ProjectsSection extends React.Component {
 
@@ -58,16 +59,17 @@ export class ProjectsSection extends React.Component {
 
                 {activeSlide === 3 && <div className="gallery-row">
 
-                    {Projects.map(project => {
-                        return (
-							<AvatarCard
-								image={project.image}
-								imageTitle={project.imageTitle}
-								centered
-								animation="slideInLeft"
-							/>
-                        )
-                    })}
+					<Card>
+
+						<div className="image-container">
+							<h2>Smart Strength</h2>
+							<img src="https://i.imgur.com/UhqdoF4.png" alt=""/>
+							<p>A React Native powered weight-training app with predictive capabilities. Smart calculations based on weekly personal strength records. Automatic weight tracking. Beginner programs.</p>
+
+						</div>
+
+					</Card>
+
 				</div>}
 
 
