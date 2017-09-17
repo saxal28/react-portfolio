@@ -33,7 +33,7 @@ export class AboutSection extends React.Component {
 				{/*// TODO -- possibly pull out into seperate component if used elsewhere*/}
 
 				{activeSlide === 1 && <AvatarCard
-					body="Howdy! I'm Alan Sax. I design and code awesome apps."
+					body="Howdy! I'm A220pxlan Sax. I design and code awesome apps."
 					image="http://i.imgur.com/Op430uO.png"
 				    hideImageOnMobile
 				/>}

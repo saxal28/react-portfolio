@@ -12,7 +12,7 @@ export class ContactSection extends React.Component {
 
 			<Section main>
 
-
+               <h1>Coming Soon...</h1>
 
 			</Section>
 		)

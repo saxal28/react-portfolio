@@ -6,13 +6,13 @@ export default class AvatarCard extends React.Component {
 
 	render() {
 
-		const { image, body, imageTitle, centered, hideImageOnMobile, link } = this.props;
+		const { image, body, imageTitle, centered, hideImageOnMobile, clickLink } = this.props;
 		const isCentered = centered ? {justifyContent: 'center' } : {}
 
-		const imageHide = (hideImageOnMobile && isMobile()) ? true : false;
+		const imageHide = !!(hideImageOnMobile && isMobile());
 
 		return (
-			<div className="avatar-card animated fadeIn" style={isCentered}>
+			<div className="avatar-card animated fadeIn" style={isCentered} onClick={() => clickLink()}>
 				<h4 className="card-body">
 					{body}
 				</h4>

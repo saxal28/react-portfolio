@@ -21,6 +21,7 @@ export const Projects = [
 	},
 	{
 		image: "https://i.imgur.com/7SkIAcr.png",
-		imageTitle: "Mood Tracker - React Native App"
+		imageTitle: "Mood Tracker - React Native App",
+		link: "https://imgur.com/a/vMWs3"
 	},
 ]

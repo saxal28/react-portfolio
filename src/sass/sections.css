@@ -33,9 +33,6 @@ section {
   display: flex;
   justify-content: center; }
   .flex-row .icon-link {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
     margin: 5px;
     cursor: pointer;
     -webkit-filter: grayscale(100%);
@@ -52,7 +49,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   -ms-flex-pack: justify;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   justify-content: center;
   height: 60vh; }
   @media only screen and (max-width: 480px) {

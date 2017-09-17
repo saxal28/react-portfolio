@@ -16,6 +16,12 @@ export class ProjectsSection extends React.Component {
 		return this.state.activeSlide === num ? "active" : ""
 	}
 
+	navigateTo(link) {
+        // this.props.history.push(`/${link}`)
+		window.open(link)
+	}
+
+
 	render() {
 
 		const {activeSlide} = this.state;
@@ -36,10 +42,12 @@ export class ProjectsSection extends React.Component {
 					{Projects.map(project => {
 						return (
 							<AvatarCard
+								id={project.imageTitle}
 								image={project.image}
 								imageTitle={project.imageTitle}
 								centered
 								animation="slideInLeft"
+								clickLink={() => this.navigateTo(project.link)}
 							/>
 						)
 					})}
@@ -52,7 +60,7 @@ export class ProjectsSection extends React.Component {
 						imageTitle="Happily Ever After STL"
 						centered
 						animation="slideInLeft"
-						onClick=""
+						clickLink={() => this.navigateTo("http://www.happilyeverafterstl.com/")}
 					/>
 
 				</div>}

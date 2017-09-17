@@ -1,9 +1,12 @@
 import React from 'react'
 import Section from "./common/Section";
 import {Card} from "./common/Card";
-import {Warning} from "./common/Warning";
+import {highlightText} from "../util/index";
+
+const clickProject = () => 	window.open("http://www.happilyeverafterstl.com/#/")
 
 export default class MainSection extends React.Component {
+
 
 	render() {
 
@@ -13,8 +16,6 @@ export default class MainSection extends React.Component {
 			<div className="website-container">
 
 				<Section>
-
-					<Warning text="Currently Rebuilding My Portfolio! Stay Tuned!"/>
 
 					<div className="grid">
 
@@ -32,6 +33,7 @@ export default class MainSection extends React.Component {
 						<div className="col-6_sm-12">
 							<Card
                                 image="https://i.imgur.com/qM49peh.png"
+                                onClick={() => clickProject()}
                             />
 						</div>
 
@@ -47,7 +49,7 @@ export default class MainSection extends React.Component {
 						</div>
 
 						<div className="col-3_sm-0_xs-0">
-							<Card title="hi" />
+							<Card image="https://cmeimg-a.akamaihd.net/640/cme/cuteness_data/s3fs-public/diy_blog/Cuteness-Interviews-Doug-The-Pug_0.jpg" />
 						</div>
 
 						<div className="col-4_sm-12">
@@ -62,9 +64,9 @@ export default class MainSection extends React.Component {
                             <Card>
 
                                 <div className="flex-row">
-                                    <a href="https://github.com/saxal28" target="_facebook"><img className="icon-link" src="https://www.hyper.no/assets/github-icon-213ce151062f75058d614837499b5855.svg"/></a>
-                                    <a href="https://www.instagram.com/saxal28/?hl=en" target="_instagram"><img className="icon-link" src="http://is1.mzstatic.com/image/thumb/Purple117/v4/09/71/76/0971766d-3c1d-9246-1bf0-9d11211e599f/source/1200x630bb.jpg"/></a>
-                                    <a href="https://www.linkedin.com/in/alan-sax-576a24b3" target="_linkedin"><img className="icon-link" src="https://lh3.googleusercontent.com/00APBMVQh3yraN704gKCeM63KzeQ-zHUi5wK6E9TjRQ26McyqYBt-zy__4i8GXDAfeys=w300"/></a>
+                                    <a href="https://github.com/saxal28" target="_facebook"><img className="icon-link" src="https://i.imgur.com/6hafd80.png"/></a>
+                                    <a href="https://www.instagram.com/saxal28/?hl=en" target="_instagram"><img className="icon-link" src="https://i.imgur.com/DCeJmH4.png"/></a>
+                                    <a href="https://www.linkedin.com/in/alan-sax-576a24b3" target="_linkedin"><img className="icon-link" src="https://i.imgur.com/0XgD7Cq.png"/></a>
                                 </div>
 
                                 <div className="button-row-bottom">

@@ -16,9 +16,9 @@ export default class Navbar extends React.Component {
 			<div className={`menu ${navStatus}`}>
 				<div className="navbar">
 					<NavLink onClick={handleClick} className="nav-link" to="/" activeClassName="active" exact>Home</NavLink>
-					<NavLink onClick={handleClick} className="nav-link" to="/about">About</NavLink>
-					<NavLink onClick={handleClick} className="nav-link" to="/projects">Web Projects</NavLink>
-					<NavLink onClick={handleClick} className="nav-link" to="/projects">Web Design</NavLink>
+					{/*<NavLink onClick={handleClick} className="nav-link" to="/about">About</NavLink>*/}
+					<NavLink onClick={handleClick} className="nav-link" to="/projects">Projects</NavLink>
+					<NavLink onClick={handleClick} className="nav-link" to="/design">Design</NavLink>
 				</div>
 			</div>
 		)

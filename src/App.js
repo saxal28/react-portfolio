@@ -2,6 +2,7 @@ import React from "react";
 import Routes from "./Routes";
 import Navbar from "./sections/common/Navbar";
 import {isMobile} from "./util/index";
+import {Warning} from "./sections/common/Warning";
 
 export default class App extends React.Component {
 
@@ -31,6 +32,8 @@ export default class App extends React.Component {
 
 		return (
 			<div style={{display: "flex"}}>
+
+				<Warning text="Currently Rebuilding My Portfolio! Stay Tuned!"/>
 
 				<Navbar showNav={showNav} toggleNav={toggleNav} />
 				<i onClick={toggleNav} className={`fa fa-bars ${iconPosition}`} aria-hidden="true"/>
