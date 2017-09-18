@@ -30,6 +30,10 @@ export default class MainSection extends React.Component {
 							<Card title="HOWDY! I'M ALAN SAX. I DESIGN AND CODE AWESOME APPS." />
 						</div>
 
+                        <div className="col-3_sm-0_xs-0">
+                            <Card image="https://cmeimg-a.akamaihd.net/640/cme/cuteness_data/s3fs-public/diy_blog/Cuteness-Interviews-Doug-The-Pug_0.jpg" />
+                        </div>
+
 						<div className="col-6_sm-12">
 							<Card
                                 image="https://i.imgur.com/qM49peh.png"
@@ -48,9 +52,6 @@ export default class MainSection extends React.Component {
                             </Card>
 						</div>
 
-						<div className="col-3_sm-0_xs-0">
-							<Card image="https://cmeimg-a.akamaihd.net/640/cme/cuteness_data/s3fs-public/diy_blog/Cuteness-Interviews-Doug-The-Pug_0.jpg" />
-						</div>
 
 						<div className="col-4_sm-12">
 							<Card title="Web Projects" />

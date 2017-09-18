@@ -4,10 +4,11 @@ export default class Section extends React.Component {
 
 	render() {
 
-		const { children, title, body, main } = this.props;
+		const { children, title, body, main, className } = this.props;
 		const classes = [
 			// 'animated slideInBigLeft',
 			`${main && "main"}`,
+			className,
 		];
 
 		return (
